@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    /*font-family: "Inria Sans", system-ui;*/
+    font-weight: 700;
+    font-style: normal;
+}
+
+.header {
+  background-color: #f8f9fa;
+  color: #495057;
+}
+
+
+.header-nav .liste {
+  color: #495057;
+}
+
+.header-nav .nav-item {
+    display: flex;
+    align-items: center;
+    color: #495057;
+    background-color: transparent;
+    border: none;
+    text-decoration: none;
+    width: 100%;
+    padding: 10px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo .bi-list {
+    font-size: 1.5rem; /* Augmente la taille de l'icône */
+    color: #495057; /* Couleur de l'icône */
+    margin-left: 40px; /* Ajustez l'espacement à droite de "Super Admine" */
+    cursor: pointer;
+}
+
+.header-nav .nav-item i {
+    margin-right: 10px;
+    transition: color 0.3s ease;
+    font-weight: 700;
+}
+
+.notifications {
+  min-width: 350px;
+  max-height: 500px;
+  overflow-y: auto;
+}
+
+.notification-item {
+  padding: 1rem !important;
+  white-space: normal !important;
+  border-bottom: 1px solid #495057;
+}
+
+.notification-item:hover {
+  background-color: #495057 !important;
+}
+
+.notification-item h6 {
+  margin-bottom: 0.5rem;
+  font-size: 0.9rem;
+}
+
+.notification-item p {
+  font-size: 0.85rem;
+  margin-bottom: 0.25rem;
+}
+
+.dropdown-header {
+  font-weight: 600;
+  background-color: #495057;
+}
+
+.notifications {
+  min-width: 350px;
+  max-height: 500px;
+  overflow-y: auto;
+}
+
+.notification-item {
+  padding: 1rem !important;
+  white-space: normal !important;
+  border-bottom: 1px solid #eee;
+}
+
+.notification-item:hover {
+  background-color: #495057 !important;
+}
+
+.notification-item h6 {
+  margin-bottom: 0.5rem;
+  font-size: 0.9rem;
+}
+
+.notification-item p {
+  font-size: 0.85rem;
+  margin-bottom: 0.25rem;
+}
+
+.dropdown-header {
+  font-weight: 600;
+  background-color: #495057;
+}
